@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+*::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+}
+body p {
+  font-size: 1.6rem;
+}
+
+.headersec {
+  background-color: #fff;
+  padding: 20px 30px;
+  box-shadow: 0px -1px 10px 0px rgba(0, 0, 0, 0.3411764706);
+}
+.headersec ul {
+  margin: 0;
+  padding: 0;
+}
+.headersec .logo img {
+  height: 6rem;
+}
+
+.navitem {
+  text-align: right;
+}
+.navitem ul li {
+  display: inline-block;
+  margin: 0 20px;
+  list-style: none;
+  font-size: 1.6rem;
+}
+.navitem ul li a {
+  color: #000;
+  text-decoration: none;
+}
+.navitem ul li a:hover {
+  color: #ffa700;
+}
+
+.cardbox .cardimg {
+  width: 100%;
+  height: 22.5rem;
+  overflow: hidden;
+  border-radius: 10px;
+  transition: 0.5s ease all;
+}
+.cardbox .cardimg img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.cardbox .cardcontent h3 {
+  color: #7e5d01;
+  font-size: 2.4rem;
+}
+.cardbox .cardcontent h3 span {
+  font-size: 1.6rem;
+}
+.cardbox .cardcontent h5 {
+  font-size: 1.8rem;
+}
+.cardbox .cardcontent i {
+  color: #fff;
+  background-color: #007a2b;
+  border-radius: 50%;
+  padding: 2px 4px;
+  font-size: 1.2rem;
+  text-align: center;
+  line-height: 2rem;
+}
+.cardbox:hover .cardimg {
+  transform: scale(1.01);
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.7607843137);
+}
+
+.dot-divider {
+  background: #000;
+  border-radius: 50%;
+  width: 5px;
+  height: 5px;
+  display: inline-block;
+}
+
+.mainsec {
+  padding: 7rem 0;
+}
+.mainsec .searchbox {
+  margin: 0rem 0 2.5rem;
+}
+.mainsec .searchbox input {
+  padding: 1.5rem 2rem;
+  font-size: 1.6rem;
+  border-radius: 3rem 0 0 3rem;
+  box-shadow: 0px 8px 29px 0px rgba(0, 0, 0, 0.1);
+  border: 1px solid transparent;
+}
+.mainsec .searchbox button.btn {
+  background: #fa7a1c;
+  color: #fff;
+  font-size: 1.8rem;
+  padding: 1.5rem 2rem;
+  border-radius: 0 3rem 3rem 0;
+}
+.mainsec .filtersec button {
+  background: #e9e9e9;
+  color: #fa7a1c;
+  border: 0;
+  padding: 1.5rem 2rem;
+  font-size: 1.5rem;
+  box-shadow: 0px 8px 29px 0px rgba(0, 0, 0, 0.1);
+  font-weight: 600;
+  border-radius: 10px;
+}/*# sourceMappingURL=index.css.map */
